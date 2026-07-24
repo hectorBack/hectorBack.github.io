@@ -1,0 +1,38 @@
+<section class="py-16 px-6 bg-gray-800 text-white">
+    <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center">Proyectos Destacados</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div class="bg-gray-900 rounded-xl overflow-hidden border border-gray-700 shadow-lg flex flex-col">
+                <div class="overflow-hidden cursor-pointer" onclick="openModal(this.querySelector('img').src, this.querySelector('img').alt)">
+                    <img src="../assets/GastroOrder.png" alt="Sistema de Gestión de Pedidos" class="w-full h-48 object-cover hover:scale-105 transition-transform duration-300">
+                </div>
+
+                <div class="p-6 flex flex-col flex-grow">
+                    <h3 class="text-xl font-bold mb-2">Sistema de Gestión de Pedidos</h3>
+                    <p class="text-gray-400 mb-4 flex-grow">
+                        Sistema de gestión de pedidos desarrollado para un restaurante. Permite
+                        registrar pedidos por mesa, para llevar y a domicilio. Incluye gestión de productos y reportes
+                        visuales.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-indigo-900/50 text-indigo-300 text-xs px-2.5 py-1 rounded font-medium border border-indigo-700">Java</span>
+                        <span class="bg-indigo-900/50 text-indigo-300 text-xs px-2.5 py-1 rounded font-medium border border-indigo-700">Spring Boot</span>
+                        <span class="bg-indigo-900/50 text-indigo-300 text-xs px-2.5 py-1 rounded font-medium border border-indigo-700">Spring Security</span>
+                        <span class="bg-indigo-900/50 text-indigo-300 text-xs px-2.5 py-1 rounded font-medium border border-indigo-700">JWT</span>
+                        <span class="bg-indigo-900/50 text-indigo-300 text-xs px-2.5 py-1 rounded font-medium border border-indigo-700">PostgreSQL</span>
+                        <span class="bg-indigo-900/50 text-indigo-300 text-xs px-2.5 py-1 rounded font-medium border border-indigo-700">Vue.js</span>
+                    </div>
+                    <div class="flex gap-3">
+                        <a href="https://github.com/hectorBack/BulldogBurgerGestor" target="_blank"
+                            class="flex-1 text-center bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold py-2 px-4 rounded transition-colors">Backend</a>
+                        <a href="https://github.com/hectorBack/BulldogBurgerGestorFrontEnd" target="_blank"
+                            class="flex-1 text-center bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold py-2 px-4 rounded transition-colors">Frontend</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

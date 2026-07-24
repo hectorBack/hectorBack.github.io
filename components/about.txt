@@ -1,0 +1,17 @@
+<section class="py-16 px-6 bg-gray-800 text-gray-300">
+    <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-6 text-center">Sobre Mí</h2>
+        <div class="space-y-4 text-lg leading-relaxed">
+            <p>
+                Soy Ingeniero en Sistemas Computacionales y Desarrollador Full Stack apasionado por la creación de
+                aplicaciones web modernas, seguras y escalables. Tengo experiencia desarrollando soluciones completas
+                utilizando Java, Spring Boot, C#, ASP.NET Core, React, Next.js y bases de datos relacionales.
+            </p>
+            <p>
+                He desarrollado sistemas de gestión escolar, plataformas administrativas y aplicaciones para
+                restaurantes, participando en todo el ciclo de desarrollo: diseño de bases de datos, desarrollo de APIs
+                REST, implementación de seguridad con JWT y creación de interfaces web responsivas.
+            </p>
+        </div>
+    </div>
+</section>
